@@ -1,0 +1,19 @@
+[project]
+name = "netsec-toolkit"
+version = "1.0.0"
+description = "Network security analysis suite: ICMP ping, TCP SYN scanner, and TLS certificate analyzer"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "Fardin Iqbal"},
+]
+dependencies = [
+    "scapy>=2.5.0",
+    "cryptography>=42.0.0",
+    "fpdf2>=2.8.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
